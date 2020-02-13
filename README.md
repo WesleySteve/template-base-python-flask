@@ -31,3 +31,10 @@ comandos (pipenv install) e (pipenv install --dev)
 - coverage run --source=app -m pytest -s tests/ -v (gerar os arquivos de cobertura do codigo)
 - coverage report (visualizar no terminal a % de cobertura do codigo)
 - coverage html (gerar o html de forma grafica da % de cobertura do codigo)
+
+# adicione no arquivo .gitignore dentro do diretório backend
+
+- no final do arquivo altere esses dois caminhos:
+  (base/.vscode base/migrations) -> para o nome do seu projeto 
+  ex: loja/.vscode loja/migrations
+- 
